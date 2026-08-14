@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite the archival Zenodo record."
+title: "The World Engine: A New Computational Framework for Predictive Discovery and Latent Behavioral Dynamics"
+type: article
+authors:
+  - name: "Voopa Corp."
+version: "1.0"
+date-released: 2026-08-14
+doi: "10.5281/zenodo.21932401"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21932401"
+    description: "Version 1.0 archival record"
+repository-code: "https://github.com/Voopa-Corp/world-engine-research"
+url: "https://www.voopacorp.com/research"
+license: CC-BY-4.0
+abstract: >-
+  The World Engine is a computational framework for discovery systems that
+  model behavior as a probabilistic emission from an evolving, partially
+  observed state. It organizes shared behavioral dynamics as Archetypes,
+  instantiates transition hypotheses called Digital Minds, detects emerging
+  multivariate patterns through Signal Intelligence, and evaluates candidates
+  by simulating possible state transitions.
+keywords:
+  - artificial intelligence
+  - predictive discovery
+  - recommender systems
+  - behavioral computing
+  - latent behavioral dynamics
+  - world models
+  - signal intelligence
+  - digital minds
+  - state-space models
+  - multi-agent systems
