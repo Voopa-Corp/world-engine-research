@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21932401.svg)](https://doi.org/10.5281/zenodo.21932401)
 [![Research paper](https://img.shields.io/badge/paper-PDF-ff6a2a)](paper/the-world-engine.pdf)
 [![Status](https://img.shields.io/badge/status-research%20prototype-173b57)](#current-status)
-[![Join the Voopa waitlist](https://img.shields.io/badge/Voopa-join%20the%20waitlist-ff6a2a)](https://www.voopa.app/waitlist)
+[![Download Voopa](https://img.shields.io/badge/Voopa-download%20the%20app-ff6a2a)](https://www.voopa.app/)
 
 **A computational framework for predictive discovery and latent behavioral dynamics.**
 
@@ -11,13 +11,17 @@ The World Engine is a research program for discovery systems that represent beha
 
 The framework is intended for environments that decide which information appears next, including social feeds, streaming services, digital commerce, programmatic advertising, and conversational discovery. Its first experimental setting is a social application organized around visual statements and questions, bounded response options, voting, and short-lived conversations.
 
-[Read the paper](https://doi.org/10.5281/zenodo.21932401) · [Research page](https://www.voopacorp.com/research) · [Explore Voopa](https://www.voopa.app/) · [Join the waitlist](https://www.voopa.app/waitlist)
+[Read the paper](https://doi.org/10.5281/zenodo.21932401) · [Research page](https://www.voopacorp.com/research) · [Explore Voopa](https://www.voopa.app/) · [Download Voopa](https://www.voopa.app/)
+
+## Research notes
+
+- [The Traffic-Light Problem: Why Content Discovery Needs a State Model](docs/traffic-light-state-model.md) - a visual, deliberately simplified account of state inference, uncertainty and policy selection. It includes a designed toy simulation and does not make real-world traffic or human-performance claims.
 
 ## From research to product
 
 Voopa is the first planned consumer setting for testing ideas developed through the World Engine research program. The application is organized around visual statements and questions, bounded voting options, short-lived conversations, and real-time discovery. This structure can support controlled comparisons among conventional delivery, randomized delivery, and state-aware discovery policies.
 
-The current public application and synthetic-world prototype should not be interpreted as evidence that the World Engine improves human engagement or user outcomes. Those claims require prospective testing with real participants. People interested in taking part in early product testing can [explore Voopa](https://www.voopa.app/) and [join the early-access waitlist](https://www.voopa.app/waitlist).
+The current public application and synthetic-world prototype should not be interpreted as evidence that the World Engine improves human engagement or user outcomes. Those claims require prospective testing with real participants. Readers can [explore Voopa and download the app](https://www.voopa.app/) from the Voopa website.
 
 ![Implemented World Engine prototype hierarchy](figures/prototype-hierarchy.png)
 
