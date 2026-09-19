@@ -7,6 +7,10 @@
 
 **A computational framework for predictive discovery and latent behavioral dynamics.**
 
+## Latest research note
+
+**[A Brief History of Internet Discovery, and Why It May Need a New Foundation](docs/internet-discovery-new-foundation.md)** is the flagship September 2026 research article. It traces the shift from intentional search toward context-dependent discovery, then sets out the research question behind the World Engine: whether explicit transition structure can add value when history is incomplete, stale or misleading. It includes the original cover and three explanatory figures, plus links to the underlying paper and evaluation framework.
+
 The World Engine is a research program for discovery systems that represent behavior as the observable output of an evolving, partially observed process. It asks whether shared behavioral dynamics, current signals, explicit state transitions, and relational context can improve prediction when long individual histories are unavailable, stale, or misleading.
 
 The framework is intended for environments that decide which information appears next, including social feeds, streaming services, digital commerce, programmatic advertising, and conversational discovery. Its first experimental setting is a social application organized around visual statements and questions, bounded response options, voting, and short-lived conversations.
@@ -15,6 +19,7 @@ The framework is intended for environments that decide which information appears
 
 ## Research notes
 
+- [A Brief History of Internet Discovery, and Why It May Need a New Foundation](docs/internet-discovery-new-foundation.md) - an essay on the shift from intentional retrieval toward context-dependent discovery, and the research question behind the World Engine.
 - [The Traffic-Light Problem: Why Content Discovery Needs a State Model](docs/traffic-light-state-model.md) - a visual, deliberately simplified account of state inference, uncertainty and policy selection. It includes a designed toy simulation and does not make real-world traffic or human-performance claims.
 
 ## From research to product
@@ -79,6 +84,8 @@ The trajectories above are generated from designed simulation assumptions. They 
 ## Reference scaffold
 
 [`reference/world_engine_scaffold.py`](reference/world_engine_scaffold.py) is a small, dependency-free illustration of the paper's interfaces. It demonstrates candidate-conditioned state transition, uncertainty-aware trajectory scoring, and multi-objective ranking. It is not the Voopa production system, a trained model, or evidence of empirical performance.
+
+[`reference/traffic_light/`](reference/traffic_light/) is a separate, reproducible belief-state control package supporting the [Traffic-Light Problem research note](docs/traffic-light-state-model.md). It includes a fully specified synthetic environment, explicit posterior inference, paired baselines and standard-library tests. Its results are limited to the designed toy environment.
 
 This repository intentionally excludes private application code, user data, learned parameters, deployment infrastructure, and production mapping logic.
 
